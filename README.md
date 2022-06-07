@@ -10,5 +10,7 @@ docker buildx build --platform=linux/amd64,linux/arm64 -t semenleyn/patric_cli_1
 # Usage
 ```
 docker run --rm -v "$(pwd)/data:/data" -w /data semenleyn/patric_cli_1.039_ubuntu_20.04 [PATRIC CLI command]
+
+# Example:
 docker run --rm -v "$(pwd)/data:/data" -w /data semenleyn/patric_cli_1.039_ubuntu_20.04 p3-gto 470.8431
 ```
